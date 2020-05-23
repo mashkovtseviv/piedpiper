@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+body {
+   width: 1219px;
+   margin: auto;
+   font-family: Roboto, serif;
+   font-style: normal;
+   font-weight: 500;
+}
+header { 
+   height: 84px;
+}
+.header {
+   background: #007765;   
+   height: 84px;
+   width: 1219px;
+   margin: 0 auto;
+   font-size: 24px;
+   line-height: 28px;
+   color: #FFFFFF;
+   text-align: right;
+   position: fixed;
+   z-index: 1000;
+}
+header a {
+   padding: 20px;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+.logo_header {
+   float: left;
+   margin: 20px;
+}
+.menu {
+   float: right;
+   margin: 29px 54px 26px 0px;
+}
+.jumbotron {
+   background: url(img/image.png);
+   height: 403px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 72px;
+   line-height: 84px;
+   text-align: center;   
+   color: #FFFFFF;
+   margin:0px auto 0px;
+   }
+h1 {
+   font-size: 64px;
+   line-height: 75px;
+   text-align: center;
+   color: #007765;
+  /* padding-top: 48px; */
+}
+.text_in_center {
+   height: 403px;
+   line-height: 403px;
+}
+.the_problem {
+   height: 719px;
+   background: #EEEEEE;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 37px;
+   color: #000000;
+  /* margin:0px auto 0px;*/
+  border: 1px solid #EEEEEE;   
+}
+.text{
+   padding: 0px 55px 0px;   
+}
+.text img {
+   height: 115px;
+   width: 115px;
+   margin-right: 55px;
+   float: left;     
+}
+.hero {
+   background: url(img/image-1.png);
+   height: 483px;
+   font-style: italic;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 56px;
+   text-align: center;
+   color: #FFFFFF;
+   border: 1px solid #FFFFFF; 
+   position: relative;
+}
+.hero_text {
+   position: absolute;
+   top: 25%;
+   left: 15%; 
+}
+.ppc {
+   height: 604px;
+   background: #FFFFFF;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 37px;
+   color: #000000;
+}
+.ppc img {
+   
+}
+.the_team {
+   text-align: center;
+   background: #EEEEEE;
+   border: 1px solid #EEEEEE;
+   width: 1200px;
+   margin: 0 auto;
+}
+.team {   
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%; 
+   padding-left: 40px;      
+   padding-right: 40px;
+}
+.flex_block {
+   text-align: center;
+   flex-basis: 10%;
+   padding-top: 24px;
+   padding-left: 91px;
+   padding-right: 91px;
+   padding-bottom: 28px;
+   margin: 15px;
+}
+.Name {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   color: #007765;
+}
+.role {
+   font-family: Roboto;
+   font-style: italic;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;   
+   color: #000000;
+}
+
+footer {
+   height: 176px;
+   background: #333333;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #FFFFFF;
+}
+.footer {
+   padding: 42px 20px 64px 23px;
+}
